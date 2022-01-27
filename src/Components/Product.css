@@ -1,0 +1,97 @@
+body {
+  background-color: #b3e5fc;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+  /* margin-right: 20px; */
+}
+h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+.textLeft {
+  text-align: left;
+}
+.loadingDiv {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  
+}
+.card {
+  /* width: 450px; */
+  border: none;
+  border-radius: 10px;
+  background-color: #fff !important; 
+  transition: transform 450ms;
+}
+
+.card:hover{
+  transform: scale(1.07);
+}
+
+
+
+.image {
+  min-width: 155px;
+  margin-right: 20px;
+  transition: transform 750ms;
+}
+
+.image:hover{
+
+  transform: scale(1.07);
+}
+
+
+.stats {
+  background: #f1f3f5 !important;
+  color: #000 !important;
+}
+.name {
+  font-size: 20px;
+  color: #273b5e;
+}
+
+.model {
+  font-size: 15px;
+  color: #273b5e;
+}
+
+.price {
+  font-size: 15px;
+  color: #273b5e;
+}
+
+.description {
+  font-size: 8px;
+  color: #273b5e;
+}
+
+
+
+.selector{
+  margin-left: 15px;
+  padding-right: 5px;
+}
+
+
+
+::-webkit-scrollbar{
+  display: none;
+
+}
+
+
+.buttons{
+  margin-left: 15px;
+}
+
+.button{
+  margin: 5px;
+}
+
+.button{
+  background-color: rgb(50, 205, 76);
+  color: #000;
+}
+

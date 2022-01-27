@@ -1,0 +1,23 @@
+body {
+  padding: 20px;
+  background-color: #b3e5fc;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+}
+
+.detials_info{
+  margin: 10px;
+  padding: 140px;
+  background-color: #fff;
+  
+}
+
+.image{
+  max-width: 455px;
+  max-height: max-content;
+  margin-right: 20px;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+
